@@ -1,9 +1,13 @@
 {
-  "name": "hsr-vercel-proxy",
+  "name": "hsr-scraper",
   "version": "1.0.0",
   "main": "index.js",
   "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
   "dependencies": {
-    "node-fetch": "^2.6.9"
+    "express": "^4.18.2",
+    "puppeteer": "^21.3.8"
   }
 }
